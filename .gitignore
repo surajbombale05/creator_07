@@ -1,0 +1,13 @@
+node_modules/
+.env
+# /public/bannerImages
+# /public/creatorImages
+# /public/profileImages
+# /public/serviceModuleImages
+# /public/servicesImages
+# /public/topicsImages
+# /public/trendingTopicImages
+# /public/youtubeUpdateImages
+# /public/requestProfileImages
+# /public/notificationImages
+# /public
