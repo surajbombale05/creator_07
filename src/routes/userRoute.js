@@ -23,7 +23,7 @@ const upload = multer({ storage: storage });
 
 
 router.post('/getAllUsers',authMiddleware.verifyAdminToken,userController.getAllUsers);
-router.post('/getAllUserAsCreator',authMiddleware.verifyToken,userController.getAllUserAsCreator);
+router.post('/getAllUserAsCreator',userController.getAllUserAsCreator);
 router.post('/getuserbyId',authMiddleware.verifyToken,userController.getUserById);
 router.post('/getUserProfile',authMiddleware.verifyToken,userController.getUserProfile);
 router.get('/getFilterUser',userController.filterUsers);
